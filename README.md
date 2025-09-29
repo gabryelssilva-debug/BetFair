@@ -1,2 +1,37 @@
-# BetFair
-Este projeto é uma casa de aposta (ou jogo de azar) , onde o usuário é cadastrado e tendo seu nome, login , senha e carteira associados ao app. Neste projeto, o usuário tem uma carteira, onde é determinado o controle de saques, depósitos , ganhos/perdas nas apostas. Tendo eventos esportivos que são jogos/partidas em que o usuário pode apostar
+🎲 BetFair Prototype
+
+Projeto acadêmico desenvolvido em Java para praticar conceitos de POO e arquitetura MVC. O sistema simula uma plataforma de apostas esportivas, com cadastro e gerenciamento de usuários, eventos, apostas e carteiras virtuais.
+
+EQUIPE DO PROJETO: Kayky Breno Paulino da Silva, Gabryel dos Santos Silva, José Guilherme Araújo do Nascimento, Luiz Simeone Carneiro Corrêa, Monica dos Santos Moura, Jefferson Rodrigo da Silva.
+
+🚀 Funcionalidades
+
+Cadastro, atualização, pesquisa e remoção (CRUD) de entidades
+
+Repositórios com ArrayList para armazenamento em memória
+
+Serviços com regras de negócio
+
+Tratamento de erros básicos na interação com o usuário
+
+Interfaces para serviços e repositórios
+
+Menu interativo no console
+
+Arquitetura organizada em camadas (MVC)
+
+🛠️ Estrutura do Projeto src/ ├── aplicacoes/ # Menu principal (View) ├── controllers/ # Controladores de cada serviço ├── entidades/ # Classes de domínio (Usuario, Evento, Aposta, etc.) ├── repositorios/ # Repositórios com ArrayList + interfaces └── servicos/ # Regras de negócio + interfaces
+
+📚 Conceitos aplicados
+
+✔️ Herança
+
+✔️ Polimorfismo
+
+✔️ Encapsulamento
+
+✔️ Interfaces
+
+✔️ Tratamento de exceções
+
+✔️ Arquitetura MVC
